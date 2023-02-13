@@ -17,12 +17,102 @@
           <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
         </div>
         <div class="card-content-padding" >
-          contenuto
+          Salve a tutti, mi chiamo Lorenzo Rizzolo e sono uno studente dell'Istituto Internazionale Agnelli di Torino e questo è il mio portfolio di Educazione civica.
         </div>
       </CardContent>
     </Card>
 
     <BlockTitle><h2>PROGETTI</h2></BlockTitle>
+
+    <Card expandable >
+      <CardContent padding={false}>
+        <div class="card" style="  margin:0; height: 50px">
+          <CardHeader textColor="white" class="display-block">
+            MAFIA<br>
+            <small style="opacity: 0.8">Slide sulla mafia</small>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          contenuto
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card expandable >
+      <CardContent padding={false}>
+        <div class="card" style="  margin:0; height: 50px">
+          <CardHeader textColor="white" class="display-block">
+            MAFIA<br>
+            <small style="opacity: 0.8">Slide sulla mafia</small>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          contenuto
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card expandable >
+      <CardContent padding={false}>
+        <div class="card" style="  margin:0; height: 50px">
+          <CardHeader textColor="white" class="display-block">
+            MAFIA<br>
+            <small style="opacity: 0.8">Slide sulla mafia</small>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          contenuto
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card expandable >
+      <CardContent padding={false}>
+        <div class="card" style="  margin:0; height: 50px">
+          <CardHeader textColor="white" class="display-block">
+            MAFIA<br>
+            <small style="opacity: 0.8">Slide sulla mafia</small>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          contenuto
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card expandable >
+      <CardContent padding={false}>
+        <div class="card" style="  margin:0; height: 50px">
+          <CardHeader textColor="white" class="display-block">
+            MAFIA<br>
+            <small style="opacity: 0.8">Slide sulla mafia</small>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          contenuto
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card expandable >
+      <CardContent padding={false}>
+        <div class="card" style="  margin:0; height: 50px">
+          <CardHeader textColor="white" class="display-block">
+            MAFIA<br>
+            <small style="opacity: 0.8">Slide sulla mafia</small>
+          </CardHeader>
+          <Link cardClose color="white" class="card-opened-fade-in" style="position: absolute; right: 15px; top: 15px" iconF7="xmark_circle_fill" />
+        </div>
+        <div class="card-content-padding">
+          contenuto
+        </div>
+      </CardContent>
+    </Card>
 
     <Card expandable >
       <CardContent padding={false}>
