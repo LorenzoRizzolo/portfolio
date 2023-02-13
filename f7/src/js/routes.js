@@ -4,6 +4,7 @@ import FormPage from '../pages/form.svelte';
 import DynamicRoutePage from '../pages/dynamic-route.svelte';
 import RequestAndLoad from '../pages/request-and-load.svelte';
 import NotFoundPage from '../pages/404.svelte';
+import slidemafia from '../pages/slide-mafia.svelte';
 
 var routes = [
   {
@@ -13,6 +14,10 @@ var routes = [
   {
     path: '/form/',
     component: FormPage,
+  },
+  {
+    path: '/slide-mafia/',
+    component: slidemafia,
   },
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',

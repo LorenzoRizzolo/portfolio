@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ed-civica</title>
+  <meta charset="utf-8">
+  <!--
+  Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+      https://cordova.apache.org/docs/en/latest/
+  Some notes:
+    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+    * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+      * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+
+  <meta name="theme-color" content="#fff">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Lorenzo Rizzolo - Civica</title>
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/favicon.jpeg">
+  
+  
+  <!-- built styles file will be auto injected -->
+  <script type="module" crossorigin src="./assets/index.660803e1.js"></script>
+  <link rel="stylesheet" href="./assets/index.f6f28db3.css">
 </head>
 <body>
-    <script src="js/script.js"></script>
-
-    <div id="pop">
-        <div class="menu">
-            <div align="right"><button onclick="close_pop()"> x </button></div>
-            <hr>
-            <div class="title">Scegli sezione</div>
-            <hr>
-            <div class="link"><a href="mafia.html">Mafia</a></div>
-            <hr>
-            <div class="link"><a href="cit.html">Onesti cittadini</a></div>
-        </div>
-    </div>
-
-    <header><center><span class="title">Lorenzo Rizzolo - Civica</span></center></header>
-    <div style="padding: 35px;"></div>
-
-
-    <center>
-        <br>
-        <img class="me" src="img/me.jpg" alt="me"><br> 
-        <button class="me" onclick="show_pop()">Progetti</button><br>
-        <button class="me">Educazione Civica</button>
-    </center>
-
+  <div id="app"></div>
+  
+  
 </body>
 </html>
